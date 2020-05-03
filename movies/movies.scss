@@ -1,0 +1,37 @@
+h2 {
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+$width: 70%;
+$height: 50px;
+$font-size: 14 px;
+
+table {
+    width:$width;
+    border-collapse: collapse;
+    margin-left: 20px;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+  }
+
+th, td {
+    font-size: $font-size;
+    height: $height;
+    text-align: left;
+    padding: 5px;
+  }
+  
+tr:nth-child(even) {
+      background-color: #eee;
+  }
+tr:nth-child(odd) {
+    background-color: #fff;
+  }
+th {
+    background-color: rgb(23, 77, 39);
+    color: white;
+  }
